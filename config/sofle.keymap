@@ -20,12 +20,12 @@
 #define ADJUST 3
 
 // homerow mods
-ZMK_BEHAVIOR(hrm, hold_tap,
-    flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <125>;
-    bindings = <&kp>, <&kp>;
-)
+// ZMK_BEHAVIOR(hrm, hold_tap,
+//    flavor = "balanced";
+//    tapping-term-ms = <280>;
+//    quick-tap-ms = <125>;
+//     bindings = <&kp>, <&kp>;
+// )
 
 / {
     // Activate ADJUST layer by pressing raise and lower
