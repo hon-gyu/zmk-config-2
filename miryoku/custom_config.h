@@ -1,0 +1,26 @@
+// Copyright 2021 Manna Harbour
+// https://github.com/manna-harbour/miryoku
+
+#define MIRYOKU_ALPHAS_QWERTY
+
+// Support for encoders
+#define CONFIG_EC11_y
+#define CONFIG_EC11_TRIGGER_GLOBAL_THREAD_y
+
+// Display Config
+#define CONFIG_ZMK_DISPLAY_y
+#define CONFIG_ZMK_WIDGET_LAYER_STATUS_n
+#define CONFIG_ZMK_WIDGET_BATTERY_STATUS_y
+#define CONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE_y
+#define CONFIG_ZMK_WIDGET_WPM_STATUS_n
+
+// Blutooth Config
+#define CONFIG_ZMK_BLE_EXPERIMENTAL_CONN_y
+#define CONFIG_BT_CTLR_TX_PWR_PLUS_8_y
+
+// Power Management
+#define CONFIG_ZMK_IDLE_TIMEOUT 120000
+#define CONFIG_ZMK_SLEEP_y
+#define CONFIG_ZMK_IDLE_SLEEP_TIMEOUT 600000
+#define CONFIG_ZMK_PM_SOFT_OFF_y
+#define CONFIG_ZMK_EXT_POWER_y
