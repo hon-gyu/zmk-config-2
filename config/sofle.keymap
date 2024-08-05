@@ -82,11 +82,11 @@
 
         Button {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans        &trans         &trans          &trans                                 &trans         &trans          &trans         &trans             &trans         &trans
+&trans  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO                          &kp C_AC_REDO  &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT       &kp C_AC_UNDO  &trans
+&trans  &kp LSHFT      &kp LCTRL     &kp LALT       &kp LGUI        &trans                                 &trans         &kp RGUI        &kp RALT       &kp RIGHT_CONTROL  &kp RSHFT      &trans
+&trans  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO  &trans       &trans     &kp C_AC_REDO  &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT       &kp C_AC_UNDO  &trans
+                       &trans        &trans         &mkp MCLK       &mkp LCLK      &mkp RCLK    &mkp RCLK  &mkp LCLK      &mkp MCLK       &trans         &trans
             >;
         };
 
